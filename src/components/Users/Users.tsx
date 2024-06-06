@@ -1,8 +1,15 @@
+import UserItem from './UserItem';
+
 const Users = () => {
   return (
-    <div>
-      Users
-    </div>
+    <>
+      <h4>
+        Users
+      </h4>
+      <UserItem/>
+      <UserItem/>
+      <UserItem/>
+    </>
   );
 };
 
