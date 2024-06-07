@@ -1,14 +1,16 @@
 export interface User {
   id: string;
   name: string;
-  description: string;
+  role: string;
+  image: string;
   age: number;
 }
 
 export interface UserForm {
   name: string;
-  description: string;
-  age: number;
+  image: string;
+  Email: string;
+  age: string;
   role: string;
   isActive: boolean;
 }
