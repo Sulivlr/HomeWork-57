@@ -112,6 +112,7 @@ const UserForm: React.FC<Props> = ({onSubmit}) => {
       <div className="form-group mt-2">
         <label htmlFor="isActive">Is Active?</label>
         <input
+          required
           type="checkbox"
           name="isActive"
           id="isActive"
